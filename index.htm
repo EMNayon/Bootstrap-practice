@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <!-- font awesome 5 link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn added here  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap cdn added here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap cdn 4.0 added here  -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+    <!-- stackover flow for width -->
+    <link rel="stylesheet" href="https://drive.google.com/uc?id=1jLrfISsLUcRiwgNl0koSfsS6lylj0E7h">
+
+    <!-- stylesheet added here  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <header id="home">
+            <nav class="navbar navbar-expand-md ">
+                <div class="container-fluid">
+                   
+                    <!-- navbar toggler icon added here  -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target = "#navbarNav">
+                        <span ><i class="fa fa-bars navbar-icon text-white"></i></span>
+                    </button>
+
+                    <!-- images added here  -->
+                    <a href="#" class="navbar-brand">
+                        <img class="rounded-circle" src="images/logo.jpg"  alt="">
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto ">
+                            <li class="nav-item active">
+                                <a class="nav-link text-center text-md-center" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-center" href="#about-me">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-center" href="#tutorial">Tutorials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-center" href="#feedback">Feedback</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-center" href="#contact-form">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section id="banner">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-contents text-center">
+                        <h1 class="font-weight-bolder text-white mb-5">Learn Something new !!!</h1>
+                        <button class="btn btn-lg btn-primary me-3" onclick="location.href='#tutorial'" > <i class="fas fa-play me-2"></i> Tutorials</button>
+                        <button class="btn btn-lg btn-primary ms-3 request-callback" onclick="window.open('https://getbootstrap.com/docs/5.0/utilities/spacing/')" > <i class="fab fa-youtube me-2"></i>Subscribe</button>
+                    </div>
+                </div>
+
+            </section>
+        </header>
+        <main>
+            <!-- features section starts here  -->
+            <section id="features" class="text-center">
+                <div class="row">
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold">Free to Use</h5>
+                            <p class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos eaque, asperiores error reiciendis impedit est.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold">Free to Use</h5>
+                            <p class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos eaque, asperiores error reiciendis impedit est.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold">Free to Use</h5>
+                            <p class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. dis impedit est.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- features ends here  -->
+
+            <!-- about me section starts here  -->
+
+            <section id="about-me">
+                <div class="section-title">
+                    <h3 class="text-center">About Me</h3>
+                    <hr class="hr-style" >
+                </div>
+                <!-- Personal info starts here  -->
+                <div class="row mb-3 mb-lg-0">
+                    <div class="col-lg-5">
+                        <div class="basic-desc text-center text-lg-start">
+                            <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                            <h5 class="font-weight-bolder">Personal Info</h5>
+                            <p><span>Name :</span> EM Nayon</p>
+                            <p><span>Profession :</span> Computer Science Student</p>
+                            <p><span>Current address :</span> Mirpur-1, Dhaka</p>
+                            <p><span>Website :</span> <a href="#" target="_blank">www.sanva.com</a></p>
+                            <p><a href="#"><button class="btn btn-primary">Download CV</button></a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- personal info ends here  -->
+
+                <!-- Achievements section starts here  -->
+                <div class="row mb-3 mb-lg-0">
+                    <div class="col-lg-7">
+
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="achieve-desc text-center text-lg-start">
+                            <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                            <h5 class="font-weight-bolder">Achievements</h5>
+                            <p><span>100% Tuition Waiver : </span> Based on excellent academic result in Prime University </p>
+                            <p><span>Public Bank Scholarship : </span> 50k, For Scoring GPA 5.00</p>
+                            <p><span>Silver Button : </span> from Youtube because of 10k Subscriber</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Achievements section ends here  -->
+
+                <!-- education section starts here  -->
+                <div class="row mb-3 mb-lg-0">
+                    <div class="col-lg-5">
+                        <div class="education-desc text-center text-lg-start">
+                            <i class="icon-style rounded-circle fas fa-user-graduate fa-2x"></i>
+                            <h5 class="font-weight-bolder">Education</h5>
+                            <p><span>SSC : </span> Sindurna Lokman Hossain High School </p>
+                            <p><span>HSC : </span> Alimuddin Degree College</p>
+                            <p><span>University : </span> Prime University</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- education section ends here  -->
+
+                <!-- Experiences section starts here  -->
+                <div class="row mb-3 mb-lg-0">
+                    <div class="col-lg-7">
+
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="experiences-desc text-center text-lg-start">
+                            <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                            <h5 class="font-weight-bolder">Experiences</h5>
+                            <p><span>Programming Contest : </span> Prime University Programming Contest Champion </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experiences section ends here -->
+
+                <!-- Skills section starts here  -->
+                <div class="row mb-3 mb-lg-0">
+                    <div class="col-lg-5">
+                        <div class="skill-desc text-center text-lg-start">
+                            <i class="icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                            <h5 class="font-weight-bolder">Skills</h5>
+                            <table class="table">
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>CSS</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Bootstrap 5</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>PHP</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>C</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skills section ends here -->
+            </section>
+            <!-- about me section ends here  -->
+
+            <!-- tutorial section starts here  -->
+
+            <section id="tutorial" class=" bg-warning">
+                <div class="section-title py-3">
+                    <h3 class="text-center">Tutorials</h3>
+                    <hr class="hr-style" >
+                </div>
+                <div class="tutorial-section-1 px-3">
+                    <div class="row text-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="images/banner2.jpg" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title">HSC ICT</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="images/banner2.jpg" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title">HSC ICT</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="images/banner2.jpg" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title">HSC ICT</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="images/banner2.jpg" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title">HSC ICT</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="tutorial-section-2 p-3">
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top" src="images/banner2.jpg" alt="">
+                            <div class="card-body">
+                                <h3 class="card-title">HSC ICT</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top" src="images/banner2.jpg" alt="">
+                            <div class="card-body">
+                                <h3 class="card-title">HSC ICT</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top" src="images/banner2.jpg" alt="">
+                            <div class="card-body">
+                                <h3 class="card-title">HSC ICT</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top" src="images/banner2.jpg" alt="">
+                            <div class="card-body">
+                                <h3 class="card-title">HSC ICT</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </section>
+
+            <!-- tutorial section ends here  -->
+
+            <!-- feedback section starts here  -->
+
+            <section id="feedback">
+                <div class="section-title py-3">
+                    <h3 class="text-center">Feedback</h3>
+                    <hr class="hr-style" >
+                </div>
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero harum ut, veritatis quas distinctio magnam porro! Velit, nisi voluptatem.</p>
+                                <img class="rounded-circle feedback-img" src="images/logo.jpg" alt="">
+                                <h6>EM Nayon</h6>
+                            </div>
+                            <div class="carousel-item">
+                                <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero harum ut, veritatis quas distinctio magnam porro! Velit, nisi voluptatem.</p>
+                                <img class="rounded-circle feedback-img" src="images/logo.jpg" alt="">
+                                <h6>EM Nayon</h6>
+                            </div>
+                            <div class="carousel-item">
+                                <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero harum ut, veritatis quas distinctio magnam porro! Velit, nisi voluptatem.</p>
+                                <img class="rounded-circle feedback-img" src="images/logo.jpg" alt="">
+                                <h6>EM Nayon</h6>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- feedback section ends here  -->
+
+            <!-- contact form starts here  -->
+
+            <section id="contact-form ">
+                <div class="contact-section bg-primary text-white p-3">
+                    <div class="section-title py-3">
+                        <h3 class="text-center">Feedback</h3>
+                    </div>
+                    <form action="#" class="w-50 m-auto was-validated">
+                        <div class="form-group">
+                            <label for="fullname">Fullname</label>
+                            <input type="text" name="fullname" class="form-control" required>
+                            <div class="valid-feedback">Valid</div>
+                            <div class="invalid-feedback">Please enter your fullname as soon as possible</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="mail" class="form-control" required>
+                            <div class="valid-feedback">Valid email</div>
+                            <div class="invalid-feedback">Plese enter your valid email address</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" name="subject" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" class="form-control" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                            <input type="submit" value="Submit" class="btn btn-secondary">
+                            <input type="reset" value="Reset" class="btn btn-secondary">
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- contact form ends here  -->
+
+        </main>
+        <!-- main section ends here  -->
+
+        <!-- footer section starts here  -->
+        <footer>
+            <div class="row text-white">
+                <div class="col-lg-6 text-center text-lg-end mb-3 mb-lg-0">
+                    <p class="small mb-0 mt-1">&copy; Copyright emnayon-2021</p>
+                </div>
+                <div class="col-lg-6 text-center text-lg-start">
+                    <a href="#home">Home</a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section ends here  -->
+    </div>
+
+
+    <!-- bootstrap js, jqueary , popper  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>
